@@ -35,14 +35,12 @@ module.exports = {
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        : "",
-      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
+      appId: "5SQ2SX2D9Q",
+      searchOnlyApiKey: "a011e36ef8c602435c3f2af2464f5b85",
+      indexName: "CONTENT"
     },
     facebook: {
-      appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
+      appId: "2281085548792781"
     }
   },
   plugins: [
@@ -50,9 +48,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        appId: "5SQ2SX2D9Q",
+        apiKey: "0659226bd885082942f8dc95da0d1798",
+        indexName: "CONTENT",
         queries,
         chunkSize: 10000 // default: 1000
       }
