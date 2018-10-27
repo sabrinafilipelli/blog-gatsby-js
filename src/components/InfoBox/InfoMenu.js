@@ -42,6 +42,9 @@ const InfoMenu = props => {
           </Link>
         );
       })}
+      <a href="https://sabrinagear.com/" className={classes.link}>
+        Portfolio
+      </a>
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         Contact
       </Link>

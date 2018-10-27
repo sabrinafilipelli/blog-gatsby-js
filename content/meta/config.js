@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Sabrina Gear Blog", // <title>
   shortSiteTitle: "My Personal Blog", // <title> ending for posts and pages
   siteDescription: "Sabrina Gear personal blog site",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteUrl: "tbd",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
