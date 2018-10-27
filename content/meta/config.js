@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Sabrina Gear Blog", // <title>
   shortSiteTitle: "My Personal Blog", // <title> ending for posts and pages
   siteDescription: "Sabrina Gear personal blog site",
-  siteUrl: "tbd",
+  siteUrl: "https://unruffled-torvalds-fcf3e6.netlify.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
