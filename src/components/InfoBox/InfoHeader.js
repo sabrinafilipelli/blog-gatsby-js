@@ -19,7 +19,7 @@ const styles = theme => ({
     float: "left",
     display: "block",
     position: "relative",
-    margin: "0 12px 0 0",
+    margin: "0 12px 0px 0",
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       margin: "0 20px 0 0"
     },
@@ -28,6 +28,7 @@ const styles = theme => ({
       top: "10px",
       left: "50%",
       marginLeft: "-30px",
+
       transition: "all .5s",
       transitionTimingFunction: "ease",
       ".navigator-in-transition-from.navigator-is-opened &": {
@@ -40,8 +41,9 @@ const styles = theme => ({
     }
   },
   avatar: {
-    width: "36px",
-    height: "36px",
+    width: "3rem",
+    height: "3rem",
+
     borderRadius: "65% 75%",
     border: "1px solid #ddd",
     transition: "all .3s",
@@ -52,12 +54,12 @@ const styles = theme => ({
       maxWidth: "100%"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-      width: "44px",
-      height: "44px"
+      width: "2rem",
+      height: "2rem"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      width: "60px",
-      height: "60px"
+      width: "4rem",
+      height: "4rem"
     },
     "@media (hover: hover)": {
       "&:hover": {
@@ -74,7 +76,7 @@ const styles = theme => ({
     "& small": {
       display: "block",
       fontSize: ".6em",
-      marginTop: ".3em"
+      marginTop: ".5em"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       fontSize: `${theme.info.fonts.boxTitleSizeM}em`
@@ -82,7 +84,7 @@ const styles = theme => ({
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       fontSize: `${theme.info.fonts.boxTitleSizeL}em`,
       position: "absolute",
-      top: "85px",
+      top: "6rem",
       textAlign: "center",
       left: "50%",
       transform: "translate(-50%)",

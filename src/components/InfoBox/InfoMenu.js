@@ -9,7 +9,7 @@ const styles = theme => ({
     flexDirection: "column",
     alignItems: "center",
     listStyle: "none",
-    margin: 0,
+    margin: "1rem 0 0 0",
     width: "100%"
   },
   link: {
