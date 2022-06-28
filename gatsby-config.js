@@ -35,8 +35,8 @@ module.exports = {
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
     algolia: {
-      appId: "5SQ2SX2D9Q",
-      searchOnlyApiKey: "a011e36ef8c602435c3f2af2464f5b85",
+      appId: "OEUQ7P03C0",
+      searchOnlyApiKey: "281098198c2c533193895d028d9d8cfc",
       indexName: "CONTENT"
     },
     facebook: {
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: "5SQ2SX2D9Q",
-        apiKey: "0659226bd885082942f8dc95da0d1798",
+        appId: "OEUQ7P03C0",
+        apiKey: "281098198c2c533193895d028d9d8cfc",
         indexName: "CONTENT",
         queries,
         chunkSize: 10000 // default: 1000
