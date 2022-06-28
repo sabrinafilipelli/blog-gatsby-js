@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Sabrina Filipelli Blog", // <title>
   shortSiteTitle: "My Personal Blog", // <title> ending for posts and pages
   siteDescription: "Sabrina Filipelli Gatsby blog site",
-  siteUrl: "https://unruffled-torvalds-fcf3e6.netlify.com",
+  siteUrl: "https://sabrina-gatsby-blog-clone.netlify.app",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
