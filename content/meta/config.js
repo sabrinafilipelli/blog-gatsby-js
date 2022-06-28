@@ -12,8 +12,8 @@ module.exports = {
   authorName: "sabrina filipelli",
   authorTwitterAccount: "sabrinafilipelli",
   // info
-  infoTitle: "Sabrina Filipelli",
-  infoTitleNote: "Sample Blog using Gatsby.js and Algolia",
+  infoTitle: "sabrina's corner",
+  infoTitleNote: "a neat blog site",
   // manifest.json
   manifestName: "PersonalBlog - a personal blog",
   manifestShortName: "PersonalBlog", // max 12 characters
