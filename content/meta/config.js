@@ -12,8 +12,8 @@ module.exports = {
   authorName: "sabrina filipelli",
   authorTwitterAccount: "sabrinafilipelli",
   // info
-  infoTitle: "sabrina gear",
-  infoTitleNote: "personal blog",
+  infoTitle: "Sabrina Filipelli",
+  infoTitleNote: "Sample Blog using Gatsby.js and Algolia",
   // manifest.json
   manifestName: "PersonalBlog - a personal blog",
   manifestShortName: "PersonalBlog", // max 12 characters
@@ -22,7 +22,7 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "sabrinageardesigns@gmail.com.com",
+  contactEmail: "sabrina.a.filipelli@gmail.com.com",
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/sabrinafilipelli" },
